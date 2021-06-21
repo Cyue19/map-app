@@ -3,7 +3,6 @@ import './App.css';
 
 import mapboxgl from "mapbox-gl";
 import "mapbox-gl/dist/mapbox-gl.css";
-import "bootstrap/dist/css/boostrap.min.css";
 
 mapboxgl.accessToken = "pk.eyJ1IjoiY3l1ZTE5IiwiYSI6ImNrcTBiMWNlNDAzMzUycHA0ejFoYW9jOW0ifQ.LMzBp9YK9S7_a76qnm_8-g";
 
@@ -34,8 +33,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        text
-        {/* <div ref={this.mapElement} className="map"></div> */}
+        <div ref={this.mapElement} className="map"></div>
       </div>
     );
   }
